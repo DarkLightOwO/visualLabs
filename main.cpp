@@ -5,6 +5,7 @@
 #include <math.h>
 #include <vector>
 #include "coordinates.h"
+#include "object.h"
 using namespace std;
 
 
@@ -24,6 +25,6 @@ int main()
     cout << "whats your starting cords? XD" << endl;
     cin >> startX >> startY;
 
-    dotPosition dot1(startX, startY, width);
+    Coordinates dot1(startX, startY, width);
     dot1.move(1, amountOfMoves);
 }

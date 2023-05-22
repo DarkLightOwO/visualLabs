@@ -13,7 +13,7 @@ int getRandomNumber(int min, int max)
     return num;
 }
 
-class dotPosition
+class Coordinates
 {
     private: int _X;
     int _Y;
@@ -21,7 +21,7 @@ class dotPosition
     int _width;
     vector<vector<int>> _path;
 
-    public: dotPosition(int X = 0, int Y = 0, int width = 10, int pathLenght = 0)
+    public: Coordinates(int X = 0, int Y = 0, int width = 10, int pathLenght = 0)
     {
         _X = X;
         _Y = Y;

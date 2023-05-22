@@ -7,4 +7,5 @@ SOURCES += \
         main.cpp
 
 HEADERS += \
-    coordinates.h
+    coordinates.h \
+    object.h
