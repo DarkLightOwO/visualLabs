@@ -1,4 +1,12 @@
-#ifndef OBJECT_H
-#define OBJECT_H
+#include <conio.h>
+#include <iostream>
+#include <time.h>
+#include <windows.h>
+#include <math.h>
+#include <vector>
+#include <utility>
 
-#endif // OBJECT_H
+class object
+{
+
+};
