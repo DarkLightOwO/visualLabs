@@ -14,6 +14,7 @@ int main()
 {
     srand(time(NULL));
     int width = 0;
+    cout << "welcome to the impressive lab3 new filler text XD";
     cout << "How big is your screen? XD" << endl;
     cin >> width;
 
